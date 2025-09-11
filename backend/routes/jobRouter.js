@@ -13,5 +13,4 @@ router.get("/getmyJobs", isAuthorized, getmyJobs);
 router.put("/update/:id", isAuthorized, updateJob);
 router.delete("/delete/:id", isAuthorized, deleteJob);
 router.get("/:id", isAuthorized, getSingleJob);
-
 export default router;
